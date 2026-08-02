@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.viz.ai/trust-center
+url: https://www.viz.ai/trust-center
+trust_center: https://trustcenter.viz.ai/
+platform: Drata
+certifications:
+- name: SOC 2 Type II
+  scope: security, availability, confidentiality, processing integrity, and privacy
+    controls over a defined audit period (independent audit)
+- name: HIPAA
+  scope: administrative, technical, and physical safeguards for protected health information
+- name: ISO/IEC 27001
+  scope: information security management system (ISMS) with structured risk management
+    and governance
+- name: ISO/IEC 27701
+  scope: privacy information management extension of ISO 27001 supporting GDPR
+- name: ISO 27799
+  scope: healthcare-specific information security controls for clinical environments
+- name: ISO/IEC 27017
+  scope: cloud services information security controls
+- name: ISO/IEC 27018
+  scope: protection of personally identifiable information in public clouds
+- name: ISO 22301
+  scope: business continuity and operational resilience management
+- name: ISO/IEC 27035
+  scope: information security incident management
+- name: ISO/IEC 42001
+  scope: AI management system governing responsible/ethical AI development lifecycle
+- name: GDPR
+  scope: lawful bases for processing, DPIAs, and cross-border transfer mechanisms
+subprocessors: https://trustcenter.viz.ai/
+evidence:
+- source: https://www.viz.ai/trust-center
+  keywords:
+  - trust center
+  - SOC 2 Type II
+  - HIPAA
+  - ISO 27001
+  - ISO 42001
+  - GDPR
+notes: Viz.ai publishes no public developer API; the security/compliance program is
+  the primary governance-relevant surface. Trust center is hosted on Drata at trustcenter.viz.ai.

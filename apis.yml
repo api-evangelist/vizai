@@ -1,8 +1,28 @@
 aid: vizai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vizai.png
 name: Viz.ai
-description: 'Viz.ai is a company surfaced as a portfolio company of crv, gv, insight-partners, scale-venture-partners,
-  seedcamp, susa-ventures, threshold-ventures and added to the API Evangelist network as a stub for enrichment.
-  Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Viz.ai is a healthcare AI company that builds an intelligent care coordination
+  platform. Its FDA-cleared, AI-powered software analyzes medical imaging (CT, CTA,
+  MRI, echocardiography) to detect suspected disease — stroke (large vessel occlusion,
+  ICH), aneurysm, pulmonary embolism, and cardiovascular conditions — and automatically
+  alerts and connects the multidisciplinary care team in real time to accelerate
+  diagnosis and treatment. Backed by CRV, GV, Insight Partners, Scale Venture Partners,
+  Seedcamp, Susa Ventures, and Threshold Ventures. Viz.ai exposes no public developer
+  API; integration is delivered through clinical/enterprise deployment, and its
+  governance-relevant public surface is a Drata-hosted Trust Center documenting a
+  broad security and compliance program (SOC 2 Type II, HIPAA, and an extensive ISO
+  family including ISO 42001 for AI management).'
 url: https://raw.githubusercontent.com/api-evangelist/vizai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -18,10 +38,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Artificial Intelligence
+- Medical Imaging
+- Care Coordination
+- Clinical
+- Diagnostics
+- Stroke
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -31,3 +57,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.viz.ai/
+- type: Blog
+  url: https://www.viz.ai/blog
+- type: Support
+  url: https://www.viz.ai/support
+- type: PrivacyPolicy
+  url: https://www.viz.ai/privacy-policy
+- type: TrustCenter
+  url: security/vizai-trust-center.yml
+- type: Compliance
+  url: security/vizai-trust-center.yml
+- type: DomainSecurity
+  url: security/vizai-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
