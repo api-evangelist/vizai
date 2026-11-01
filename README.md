@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Viz.ai is a company surfaced as a portfolio company of crv, gv, insight-partners, scale-venture-partners, seedcamp, susa-ventures, threshold-ventures and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.
+Viz.ai is a healthcare AI company that builds an intelligent care coordination platform. Its FDA-cleared, AI-powered software analyzes medical imaging (CT, CTA, MRI, echocardiography) to detect suspected disease — stroke (large vessel occlusion, ICH), aneurysm, pulmonary embolism, and cardiovascular conditions — and automatically alerts and connects the multidisciplinary care team in real time to accelerate diagnosis and treatment. Backed by CRV, GV, Insight Partners, Scale Venture Partners, Seedcamp, Susa Ventures, and Threshold Ventures. Viz.ai exposes no public developer API; integration is delivered through clinical/enterprise deployment, and its governance-relevant public surface is a Drata-hosted Trust Center documenting a broad security and compliance program (SOC 2 Type II, HIPAA, and an extensive ISO family including ISO 42001 for AI management).
 
-Backed by: crv, gv, insight-partners, scale-venture-partners, seedcamp, susa-ventures, threshold-ventures — https://www.viz.ai/
+**Areas:** Company · Healthcare · Artificial Intelligence · Medical Imaging · Care Coordination · Clinical · Diagnostics · Stroke
+
+## Viz.ai on APIs.io
+
+Everything profiled for Viz.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/vizai/](https://apis.io/providers/vizai/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Vizai Domain Security](https://apis.io/security/vizai/vizai-domain-security/)
+- [Vizai Trust Center](https://apis.io/security/vizai/vizai-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.viz.ai/)
+- [Support](https://www.viz.ai/support)
+- [Blog](https://www.viz.ai/blog)
+- [Privacy policy](https://www.viz.ai/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 11.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 26.3 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.0** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/vizai/](https://apis.io/providers/vizai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Viz.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/vizai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
